@@ -1,0 +1,81 @@
+body {
+    background: #e0e0e0;
+}
+.main {
+    /* From https://css.glass */
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid #101001;
+    border-radius: 6px;
+    
+}
+.con-1, .con-2, .con-3, .con-4{
+    border: 1px solid black;
+    width: 75%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    /*border-radius: 50px;*/
+    /*background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;*/
+}
+/*.con-1:hover {
+    border-radius: 5px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  18px 18px 54px #a1a1a1,
+                -18px -18px 54px #ffffff;
+}
+.con-2:hover {
+    border-radius: 5px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  18px 18px 54px #a1a1a1,
+                -18px -18px 54px #ffffff;
+}
+.con-3:hover {
+    border-radius: 5px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  18px 18px 54px #a1a1a1,
+                -18px -18px 54px #ffffff;
+}*/
+.flex-con, .flex-con-2, .flex-con-3, .flex-con-4 {
+    display: flex;
+    /*border: 1px solid black;
+    border-radius: 5px;*/
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-con div {
+    padding: 10px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.flex-con-2 img {
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin: 10px;
+}
+#get-cat {
+    margin-bottom: 5px;
+}
+.flex-con-3 img {
+    width: 150px;
+    height: 150px;
+}
+
+b {
+    border-bottom: 2px solid black;
+    padding: 5px 10px;
+}
+b:hover {
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 2px;
+}

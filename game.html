@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Proj1: RPS game</title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(5, 9, 43);
+    }
+    .con-3 {
+        background-color: aliceblue;
+        margin-top: 95px;
+        padding-bottom: 10px;
+    }
+</style>
+
+<body>
+    <div class="con-3">
+        <h2>Rock, Paper, Scissors Game</h2>
+        <div class="flex-con-3" id="flex-box-rps">
+            <img src="rock.png" id="rock" onclick="Game(this)">
+            <img src="paper.png" id="paper" onclick="Game(this)">
+            <img src="scissors.png" id="scissors" onclick="Game(this)">
+        </div>
+        <b onclick="reload()" class="btn btn-secondary">Play Again</b>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
